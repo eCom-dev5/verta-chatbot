@@ -1,8 +1,6 @@
 # Model Evaluation Pipeline Documentation
 
-This document outlines the workflow, components, and functionality of the `model_evaluation` pipeline for the **Verta Chatbot**. It provides detailed steps to guide users and developers in understanding and leveraging the pipeline for evaluating and experimenting with chatbot responses
-
-.
+This document outlines the workflow, components, and functionality of the `model_evaluation` pipeline for the **Verta Chatbot**. It provides detailed steps to guide users and developers in understanding and leveraging the pipeline for evaluating and experimenting with chatbot responses.
 
 ## **Overview**
 
