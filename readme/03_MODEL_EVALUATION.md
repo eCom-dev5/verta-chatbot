@@ -6,6 +6,7 @@ This document outlines the workflow, components, and functionality of the `model
 
 The `model_evaluation` pipeline evaluates chatbot responses by leveraging user reviews, metadata, and test datasets. The evaluation metrics include **context precision**, **faithfulness**, **answer relevancy**, and **context recall**. The workflow supports modular experimentation by allowing parameter and configuration adjustments in the `config/` folder.
 ffff
+hjh
 ---
 
 ## **Directory Structure**
