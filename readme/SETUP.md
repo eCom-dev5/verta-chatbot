@@ -15,7 +15,7 @@ Uses python for package management.
 
 #### 1. **Clone the Repository:**
 ```bash
-git clone https://github.com/eCom-dev5/eCom-Chatbot/tree/dev
+git clone git@github.com:SoumyaeCodes/verta-chatbot.git
 cd eCom-Chatbot
 ```
 
@@ -85,7 +85,7 @@ To set up the database instance on GCP Cloud Run, navigate to the `data_pipeline
 ```bash
 cd data_pipeline
 ```
-and follow the instructions provided in the [readme.md](https://github.com/eCom-dev5/eCom-Chatbot/blob/dev/Data_Pipeline/README.md) file.
+and follow the instructions provided in the [readme.md](https://github.com/SoumyaeCodes/verta-chatbot/blob/dev/Data_Pipeline/README.md) file.
 
 #### 7. **Connect Dagshub to the Repository**  
 To log the experiments to MLFlow and track them using Dagshub, follow these steps:  
@@ -137,7 +137,7 @@ To host the FASTAPI-wrapped API locally, run the following command:
 poetry run python src/serve.py
 ```  
 
-You can read the [API_README.md](https://github.com/eCom-dev5/eCom-Chatbot/blob/dev/readme/API_README.md) file (located in the same folder) for details about the different endpoints the app exposes. To test the endpoints, visit `https://0.0.0.0:80/docs` in your browser, or use Postman to make requests to the API.
+You can read the [API_README.md](https://github.com/SoumyaeCodes/verta-chatbot/blob/dev/readme/API_README.md) file (located in the same folder) for details about the different endpoints the app exposes. To test the endpoints, visit `https://0.0.0.0:80/docs` in your browser, or use Postman to make requests to the API.
 
 
 #### 11. **Optional: Run Streamlit Webpage Version of the App**

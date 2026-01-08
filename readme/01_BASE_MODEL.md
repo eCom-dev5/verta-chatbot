@@ -29,11 +29,11 @@ The system also features integration with **LangFuse**, which ensures comprehens
 flowchart TD
     start[User Query]
     start --> summarizer["Metadata Summarizer (Llama 3.1 8b)"]
-    summarizer["Metadata Summarizer (Llama 3.1 8b)"] --> supervisor["Supervisor (Gpt-4o-mini)"]
-    supervisor -->|Unstructured Query| vectorstore["Vectorstore Retriever (FAISS)"]
+    summarizer["Metadata Summarizer (Llama 3.1 8B)"] --> supervisor["Supervisor (Gpt-4o-mini)"]
+    supervisor -->|Unstructured Query| vectorstore["Vectorstore Retriever (FAISS dB)"]
     supervisor -->|General Query| mainllm["Main LLM (LLaMA 3.1 70B)"]
     vectorstore --> supervisor
-    mainllm --> followup["Follow-up Question Generator (Llama 3.1 8b)"]
+    mainllm --> followup["Follow-up Question Generator (Llama 3.1 70B)"]
     followup --> response["Response to User"]
     response --> langfuse["LangFuse Analytics"]
 ```
@@ -98,7 +98,6 @@ flowchart TD
 - **Example**:
    - "Would you like me to compare this product with similar options?"
 
----
 
 ### **6. LangFuse Analytics**
 - **Role**:
